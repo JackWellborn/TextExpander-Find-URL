@@ -1,6 +1,6 @@
 # Text-Expander-Find-URL
 ## Introduction
-The scripts below are [TextExpander](https://textexpander.com/) snippets that, when used in conjunction, returns the url of a tab in the frontmost Safari window based on criteria immediately preceding the snippet `;fUrl`. There are currently seven types of queries supported:
+The scripts below are [TextExpander](https://textexpander.com/) snippets that, when used in conjunction, returns the url of a tab in the frontmost Safari window based on criteria immediately preceding the snippet. You can read about more about this project and why I created it [here](http://wormsandviruses.com/2018/07/textexpander-snippets-with-variables/). There are currently seven types of queries supported:
 
 1. `+[any number]` will return the url of a tab based on absolute index where "1" is the first tab.
 2. `-[any number]` will return the url of a tab based on negative absolute index where "-1" is the last tab.
@@ -17,3 +17,5 @@ The scripts below are [TextExpander](https://textexpander.com/) snippets that, w
 4. Enable [Web Development Tools in Safari](https://developer.apple.com/safari/tools/).
 5. In the __Develop__ menu, check __Allow JavaScript from Apple Events__
 
+## Disclaimer
+Be aware that this solution uses automation to control keyboard input, manipulate the clipboard, and access Safari. The scripts involved operate locally and only use these privileges to return Safari URLs as stated above and [here](http://wormsandviruses.com/2018/07/textexpander-snippets-with-variables/), but this authors recommends further scrutiny when any solution has these and similar elevated privileges. Additionally, the author considers this solution a workaround. Bolting together text expansion with automation is somewhat brittle. As such, it only works _most_ of the time. That said, this solution get's the job done for the author until a better one comes along. 
