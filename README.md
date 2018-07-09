@@ -1,4 +1,4 @@
-# Text-Expander-Find-URL
+# TextExpander-Find-URL
 ## Introduction
 The scripts below are [TextExpander](https://textexpander.com/) snippets that, when used in conjunction, returns the url of a tab in the frontmost Safari window based on criteria immediately preceding the snippet. You can read about more about this project and why I created it [here](http://wormsandviruses.com/2018/07/textexpander-snippets-with-variables/). There are currently seven types of queries supported:
 
