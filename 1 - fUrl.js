@@ -1,4 +1,4 @@
-// Recommend abbreviation `;fUrl`.
+// Recommended abbreviation: `;fUrl` for "find url".
 // This snippet will ultimately return the url of the queried tab.
 var textExpander = Application('TextExpander');
 var app = Application.currentApplication();
